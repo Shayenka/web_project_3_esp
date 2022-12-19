@@ -1,0 +1,37 @@
+.header__title {
+    width: 793px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    /*left: 243px;*/
+    left: 19%;
+    top: 194px;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+/*position: absolute;
+width: 793px;
+height: 200px;
+left: 243px;
+top: 194px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+/* or 104% 
+
+text-align: center;
+
+color: #FFFFFF; /*

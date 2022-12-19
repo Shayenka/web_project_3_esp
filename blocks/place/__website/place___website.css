@@ -1,0 +1,12 @@
+.place__website {
+    max-width: 456px;
+    height: 45px;
+    /*left: 648px;*/
+    left: 50%;
+    grid-area: website;
+    align-self: end;
+    border: 1px solid red;
+    position: absolute;
+    top:107px;
+    
+}

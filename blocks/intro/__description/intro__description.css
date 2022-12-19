@@ -1,0 +1,13 @@
+.intro__description {
+    max-width: 720px;
+    max-height: 182px;
+    left: 148px;
+    top: 1603px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #FFFFFF;
+    position: absolute;
+    border: 1px solid red;
+}

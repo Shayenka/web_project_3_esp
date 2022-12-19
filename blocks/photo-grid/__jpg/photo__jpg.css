@@ -1,0 +1,5 @@
+.photo__jpg {
+    max-width: 284px;
+    max-height: 213px;
+    border: 1px solid red;
+}

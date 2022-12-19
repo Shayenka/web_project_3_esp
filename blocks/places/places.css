@@ -1,0 +1,12 @@
+.places {
+    display: grid;
+    position: relative;
+    justify-content: center;
+    max-width: 987px;
+    max-height: 4098px;
+    /*left: 145px;*/
+    left: 11.3%;
+    top: 2411px;
+    border: 1px solid red;
+    grid-template-rows: repeat(4, 1fr);
+}

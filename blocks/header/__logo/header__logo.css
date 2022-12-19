@@ -1,0 +1,9 @@
+.header__logo {
+    max-width: 270px;
+    max-height: 70px;
+    position: absolute;
+    /*left: 505px;*/
+    left: 39.4%;
+    top: 34px;
+    border: 1px solid red;
+}
