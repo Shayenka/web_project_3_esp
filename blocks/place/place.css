@@ -1,18 +1,13 @@
 .place {
     display: grid;
-    position: relative;
-    max-width: 984px;
-    height: 756px;
     /*left: 148px;*/
-    left: 11.5%;
     grid-gap: 40px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: 0.5fr 2fr 0.5fr;
     grid-template-areas: 
     "title website"
     "image paragraph"
-    "image paragraph"
-    "frame .";
+    "frame paragraph";
     border: 1px solid red;
     margin-bottom: auto;
 }

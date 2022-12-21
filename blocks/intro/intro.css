@@ -1,12 +1,8 @@
 .intro {
     max-width: 1017px;
-    max-height: 516px;
-    /*left: 148px;*/
-    left: 11.5%;
-    top: 1269px;
-    align-content: center;
+    margin-left: 148px;
+    display: flex;
     flex-direction: column;
     border: 1px solid red;
     
-   
 }

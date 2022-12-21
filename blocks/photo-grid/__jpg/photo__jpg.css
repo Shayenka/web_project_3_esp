@@ -3,3 +3,7 @@
     max-height: 213px;
     border: 1px solid red;
 }
+
+.photo__jpg:hover {
+    opacity: 0.8; 
+}

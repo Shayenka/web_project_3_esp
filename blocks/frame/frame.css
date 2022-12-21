@@ -1,0 +1,27 @@
+.frame {
+    padding: 13px 20px;
+    max-width: 355px;
+    max-height: 48px;
+    /*left: 148px;
+    left: 11.5% ;*/
+    background: #0278FE;
+    border-radius: 4px;
+    /* __paragraph */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    grid-area: frame;
+    text-decoration: none;
+    border: none;
+    z-index: 2;
+
+}
+
+.frame:hover {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}

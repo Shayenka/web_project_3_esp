@@ -1,13 +1,11 @@
 .intro__title {
     max-width: 1017px;
     max-height: 116px;
-    left: 148px;
-    top: 1269px;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
     line-height: 1;
     color: #FFFFFF;
-    position: absolute;
     border: 1px solid red;
+    margin-bottom: 40px;
 }

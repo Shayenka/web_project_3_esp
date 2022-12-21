@@ -1,15 +1,13 @@
 .intro__author {
     max-width: 720px;
     max-height: 34px;
-    left: 148px;
-    top: 1537px;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 1.4;
     text-align: right;
     color: #FFFFFF;
-    position: absolute;
     right: 0;
     border: 1px solid red;
+    margin-top:0;
 }

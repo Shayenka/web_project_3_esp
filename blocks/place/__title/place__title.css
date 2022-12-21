@@ -2,16 +2,14 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 1;
+    line-height: 76px;
     color: #FFFFFF;
     grid-area: title;
-    position: absolute;
     max-width: 460px;
     height: 152px;
     text-align: left;
     border: 1px solid red;
-    margin: 0;
-    margin-bottom: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
-
