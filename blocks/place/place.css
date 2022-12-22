@@ -12,8 +12,14 @@
     margin-bottom: auto;
 }
 
-/* "title ."
-    "title website"
-    "image paragraph"
-    "image paragraph"
-    "frame .";
+@media screen and (min-width: 320px) and (max-width: 768px){ 
+    .place { 
+        grid-template-areas: 
+        
+        
+    } 
+   }
+
+
+
+

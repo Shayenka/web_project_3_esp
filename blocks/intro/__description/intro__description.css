@@ -9,3 +9,10 @@
     border: 1px solid red;
     margin-bottom: 0;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px){ 
+    .intro__description  { 
+       max-height: 442px;
+       margin-top: 0;
+    } 
+   } 
