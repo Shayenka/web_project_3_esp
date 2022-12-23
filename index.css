@@ -14,7 +14,7 @@
 @import url(blocks/intro/__description/intro__description.css);
 /*photo-grid*/
 @import url(blocks/photo-grid/photo-grid.css);
-@import url(blocks/photo-grid/__jpg/photo__jpg.css);
+@import url(blocks/photo-grid/__jpg/photo-grid__jpg.css);
 /*places*/
 @import url(blocks/places/places.css);
 /*place*/
