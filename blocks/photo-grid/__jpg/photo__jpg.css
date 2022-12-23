@@ -1,17 +1,16 @@
 .photo__jpg {
     max-width: 284px;
     max-height: 213px;
-    border: 1px solid red;
 }
 
 .photo__jpg:hover {
     opacity: 0.8; 
 }
-@media screen and (min-width: 320px) and (max-width: 768px){ 
-    .photo__jpg  { 
-      /* margin:auto;
-       min-width: 288px;
-       max-width: 352px;
-       
+
+@media screen and (min-width: 768px) and (max-width: 1279px){ 
+    .photo__jpg{ 
+        min-width: 352px;
+        min-height: 264px;
+        
     } 
-   } 
+   }

@@ -1,44 +1,22 @@
 .photo-grid {
     display: grid;
-    max-width: 1184px;
-    max-height: 442px;
-    margin: 92px 48px 0;
-    /*left: 48px;*/
-    grid-template-columns: repeat(4, 1fr); 
-    grid-template-rows: repeat(2, 1fr);
+    max-width:1184px;
+    margin:92px 48px 0;
+    grid-template-columns:repeat(4, 1fr); 
     grid-gap: 16px;
-    border: 1px solid red;
+
 }
+
+@media screen and (min-width: 768px) and (max-width: 1279px){ 
+    .photo-grid{ 
+        grid-template-columns: repeat(2, 1fr); 
+       margin:0 24px;
+    } 
+   }
 @media screen and (min-width: 320px) and (max-width: 768px){ 
     .photo-grid  { 
-        min-height: 1104px ;
-        max-height: 1812px;
-        min-width: 288px;
-        max-width: 720px ;
-        /*grid-template-columns: auto;
-        grid-template-rows: auto;
-        grid-column-start: 1;
-        grid-row-start: 1;*/
-        
-    
+        margin: 38px 16px 62px;
+        grid-template-columns: 1fr;
+
     } 
    } 
-
-/*grid-gap: 40px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 0.5fr 2fr 0.5fr;
-    grid-template-areas: 
-    "title website"
-    "image paragraph"
-    "frame paragraph";
-
-
-    min-height: 1104px ;
-        max-height: 1812px;
-        min-width: 288px;
-        max-width: 720px ;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-
-        grid-column-start: 1;
-        grid-row-start: 1;*/

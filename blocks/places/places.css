@@ -1,10 +1,10 @@
 .places {
-    max-width: 987px;
-    border: 1px solid red;
+    max-width:987px;
     margin: 41px auto 80px;
     padding-top: 41px;
 
 }
+
 
 @media screen and (min-width: 320px) and (max-width: 768px){ 
     .places  { 

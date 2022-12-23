@@ -3,20 +3,18 @@
     margin-left: 148px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px){ 
-    .intro { 
-     margin-left:24px;
-     /*min-height: 958px;*/
-     
-     
-    } 
-   } 
-   @media screen and (min-width: 769px) and (max-width: 1279px){ 
+   @media screen and (min-width: 768px) and (max-width: 1279px){ 
     .intro{ 
-        margin: auto;
+        margin: 0 24px 64px;
+    } 
+   }
+
+   @media screen and (min-width: 320px) and (max-width: 768px){ 
+    .intro { 
+     margin: 5px 10px 30px;
+      
     } 
    }

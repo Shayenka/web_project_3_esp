@@ -1,13 +1,19 @@
 .header__image {
     max-width: 984px;
-    height: 615px;
-    /*left: 148px;*/
-    border: 1px solid red;   
+    height:615px;  
 }
 
 .header__image:hover {
     opacity: 0.8;  
 }
+
+@media screen and (min-width: 768px) and (max-width: 1279px){ 
+    .header__image { 
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    } 
+   }
 @media screen and (min-width: 320px) and (max-width: 768px){ 
     .header__image { 
      width: 100%;
@@ -15,11 +21,3 @@
      object-fit:contain;
     } 
    } 
-
-   @media screen and (min-width: 769px) and (max-width: 1279px){ 
-    .header__image { 
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    } 
-   }

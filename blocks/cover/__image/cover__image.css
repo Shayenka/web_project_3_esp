@@ -1,24 +1,26 @@
 .cover__image {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width:100%;
     z-index: 1;
+    top: 0;
 }
 .cover__image:hover {
     opacity: 0.8;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px){ 
-    .cover__image { 
+
+@media screen and (min-width: 768px) and (max-width: 1279px){ 
+    .cover__image{ 
         width: 100%;
-        height: 100%;
-        object-fit:contain;
+        min-height: 746px;
+       
     } 
    }
 
-   @media screen and (min-width: 769px) and (max-width: 1279px){ 
-    .cover__image{ 
-       
-       
+@media screen and (min-width: 320px) and (max-width: 768px){ 
+    .cover__image { 
+        width: 100%;
+        justify-self: center;
+        min-height: 350px;
     } 
    }

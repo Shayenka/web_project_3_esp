@@ -1,7 +1,5 @@
 .header__logo {
     min-width: 270px;
-    min-height: 70px;
-    /*left: 505px;*/
-    border: 1px solid red;
+    min-height:70px;
     margin: 34px auto auto;
 }
