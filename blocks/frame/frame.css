@@ -4,7 +4,6 @@
     max-height:48px;
     background: #0278FE;
     border-radius:4px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -14,6 +13,7 @@
     text-decoration: none;
     border: none;
     z-index: 2;
+    text-align: center;
 
 }
 
