@@ -1,16 +1,7 @@
-.photo__jpg {
-    max-width: 284px;
-    max-height: 213px;
+.photo-grid__jpg {
+  width: 100%;
 }
 
-.photo__jpg:hover {
-    opacity: 0.8; 
+.photo-grid__jpg:hover {
+  opacity: 0.5; 
 }
-
-@media screen and (min-width: 768px) and (max-width: 1279px){ 
-    .photo__jpg{ 
-        min-width: 352px;
-        min-height: 264px;
-        
-    } 
-   }

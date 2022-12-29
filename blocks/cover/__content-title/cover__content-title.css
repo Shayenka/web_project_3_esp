@@ -1,18 +1,18 @@
 .cover__content-title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    color: #FFFDFD;
-    z-index: 2;
-    margin-top: 0;
-    margin-bottom: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #FFFDFD;
+  z-index: 2;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px){ 
-    .cover__content-title { 
-        font-size: 30px;
-        margin-top: 0;
+  .cover__content-title { 
+    font-size: 30px;
+    margin-top: 0;
     
     } 
    }

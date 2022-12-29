@@ -27,6 +27,8 @@
 @import url(blocks/place/__paragraph/place__paragraph.css);
 /*frame*/
 @import url(blocks/frame/frame.css);
+/*enlace*/
+@import url(blocks/enlace/enlace.css);
 /*cover*/
 @import url(blocks/cover/cover.css);
 @import url(blocks/cover/__content/cover__content.css);
