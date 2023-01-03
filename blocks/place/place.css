@@ -27,5 +27,6 @@
     grid-template-columns:1fr;
     grid-template-rows: auto;
     margin-bottom:40px;
+    grid-gap: 30px;
     } 
    }

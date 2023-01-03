@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+.cover__content:hover .cover__image{
+  opacity: 0.3;
+  transition: opacity 0.4s linear;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1279px){ 
   .cover__content { 
     margin:246px 56px;
